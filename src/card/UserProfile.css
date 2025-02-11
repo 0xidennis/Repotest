@@ -1,0 +1,52 @@
+.user-profile {
+    margin-top: 4%;
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #183087;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    border: 1px solid white ;
+    width: 70%;
+  }
+  
+  .user-profile:hover {
+    background-color: #183087;
+  }
+  
+  .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-name {
+    font-size: 1em;
+    margin-right: 8px;
+  }
+  
+  /* .dropdown-icon {
+    font-size: 1.2em;
+    margin-top: -2px;
+    align-items: end;
+    justify-items: end;
+  } */
+  
+  @media (max-width: 600px) {
+    .user-profile {
+      padding: 8px;
+    }
+  
+    .user-name {
+      font-size: 0.9em;
+    }
+  
+    .dropdown-icon {
+      font-size: 1em;
+    }
+  }
+  

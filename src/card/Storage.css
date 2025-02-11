@@ -1,0 +1,77 @@
+.storage-card {
+    background-color: #3f2da8;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     margin-top: 50%;
+     margin-left: 6%;
+  }
+  
+  .storage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .storage-title {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+  }
+  
+  .storage-icon {
+    margin-right: 8px;
+  }
+  
+  .upgrade-button {
+    background: none;
+    border: none;
+    color: #a3a0f8;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .upgrade-button:hover {
+    text-decoration: underline;
+  }
+  
+  .storage-usage {
+    margin-top: 10px;
+    font-size: 1em;
+    margin-left: -90px;
+  }
+  
+  .storage-bar {
+    margin-top: 10px;
+    height: 5px;
+    background-color: #6e60c9;
+    border-radius: 3px;
+  }
+  
+  .storage-bar-filled {
+    height: 100%;
+    background-color: white;
+    border-radius: 3px;
+  }
+  
+  @media (max-width: 600px) {
+    .storage-card {
+      padding: 15px;
+      max-width: 100%;
+    }
+  
+    .storage-title {
+      font-size: 1em;
+    }
+  
+    .upgrade-button {
+      font-size: 0.9em;
+    }
+  
+    .storage-usage {
+      font-size: 0.9em;
+    }
+  }
+  

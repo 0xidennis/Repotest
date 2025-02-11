@@ -1,0 +1,64 @@
+.side{
+    background-color: #183087;
+    width: 25%;
+    height: 100vh;
+    border-radius: 10px 0px 0px 10px;
+}
+.logo{
+    justify-content: flex-start;
+    align-items: end;
+    margin-right: 70%;
+    padding-top: 3%;
+}
+hr{
+ background-color: #8b8b8b;
+ opacity: 0.3;
+ width: 90%;
+}
+.dashboard-item {
+    display: flex;
+    align-items: center;
+    color: white; /* Text color */
+    font-size: 16px;
+    font-weight: bold;
+    gap: 10px; /* Spacing between icon and text */
+    margin-left: 6%;
+    margin-top: 7%;
+  }
+  
+  .dashboard-icon {
+    font-size: 20px; /* Adjust icon size */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard-item {
+      font-size: 14px; /* Reduce text size */
+    }
+  
+    .dashboard-icon {
+      font-size: 18px; /* Adjust icon size */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .dashboard-item {
+      font-size: 12px; 
+    }
+  
+    .dashboard-icon {
+      font-size: 16px; 
+    }
+  }
+
+  .short{
+    margin-top: 20%;
+    align-items: center;
+    justify-content: center;
+  }
+  .short h1{
+    opacity: 0.3;
+    margin-left: -190px;
+    font-size: medium;
+  }
+  

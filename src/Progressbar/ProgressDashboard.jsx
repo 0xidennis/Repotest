@@ -1,3 +1,4 @@
+import MiddleCards from './MiddleCards'
 import './Progressbar.css'
 import Topcards from './Topcards'
 
@@ -9,6 +10,7 @@ const ProgressDashboard = () => {
             Progress Dashboard
             </h1>
             <Topcards/>
+            <MiddleCards/>
         </div>
     </div>
   )

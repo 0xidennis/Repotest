@@ -1,0 +1,93 @@
+.group-info-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-top: 4%;
+  }
+  
+  .group-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .group-title {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .notification-icon {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .group-subtitle {
+    color: #888;
+    margin-top: -20px;
+    margin-left: -180px;
+  }
+  
+  .group-homework {
+    background-color: #ff8c5a;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .homework-titl {
+    font-size: 1.1em;
+    margin: 0;
+  }
+  
+  .homework-subtitl {
+    font-size: 0.9em;
+    margin: 5px 0 0 0;
+  }
+  
+  .chevron-icon {
+    font-size: 1.5em;
+  }
+  
+  .lesson-info {
+    margin-top: 10px;
+    margin-left: -220px;
+  }
+  
+  .lesson-title {
+    font-size: 1.1em;
+    margin: 0;
+  }
+  
+  .lesson-subtitle {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  @media (max-width: 600px) {
+    .group-info-card {
+      padding: 15px;
+      max-width: 100%;
+    }
+  
+    .group-title, .homework-titl, .lesson-title {
+      font-size: 1em;
+    }
+  
+    .notification-icon, .chevron-icon {
+      font-size: 1.2em;
+    }
+  
+    .homework-subtitl, .lesson-subtitle, .group-subtitle {
+      font-size: 0.85em;
+    }
+  }
+  

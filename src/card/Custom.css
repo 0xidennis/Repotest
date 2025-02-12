@@ -1,0 +1,80 @@
+.homework-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    text-align: left;
+    font-family: Arial, sans-serif;
+  }
+.homewor-card {
+    background-color: #E1F5FD;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    text-align: left;
+    font-family: Arial, sans-serif;
+  }
+  
+  .homework-header {
+    display: grid;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .check-icon {
+    color: #ff6600;
+    margin-right: 10px;
+    font-size: 1.5em;
+  }
+  .check-ico {
+    color: #4A4DE6;
+    margin-right: 10px;
+    font-size: 1.5em;
+  }
+  
+  .homework-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .homework-subtitle {
+    color: #c7c6c6;
+    font-size: 0.9em;
+    margin: 5px 0 20px 0;
+  }
+  
+  .homework-time {
+    color: #333;
+    font-size: 0.85em;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .homework-card {
+      padding: 15px;
+      max-width: 100%;
+    }
+  
+    .homework-title {
+      font-size: 1em;
+    }
+  
+    .check-icon {
+      font-size: 1.2em;
+    }
+    .check-ico {
+      font-size: 1.2em;
+    }
+  
+    .homework-subtitle {
+      font-size: 0.85em;
+    }
+  
+    .homework-time {
+      font-size: 0.8em;
+    }
+  }
+  
